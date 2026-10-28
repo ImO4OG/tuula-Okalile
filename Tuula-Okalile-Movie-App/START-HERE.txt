@@ -1,0 +1,9 @@
+TUULA OKALILE MOVIEBOX — START HERE
+
+1) Backend: open a terminal in backend, run npm install, copy .env.example to .env, add your TMDB API Read Access Token or API Key as TMDB_TOKEN, then run npm run dev.
+2) Frontend: open a second terminal in frontend, run npm install, copy .env.example to .env, then run npm run dev.
+3) Keep the backend running while using the frontend.
+4) For Render, deploy backend folder as a Web Service. For Vercel, deploy frontend folder and set VITE_API_URL to the Render backend URL.
+5) Do not upload real .env files or expose TMDB_TOKEN.
+
+The .env.example files are templates, not real credentials.
